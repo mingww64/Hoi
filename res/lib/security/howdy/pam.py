@@ -1,1 +1,1 @@
-./howdy/src/pam.py
+howdy/howdy/src/pam.py
