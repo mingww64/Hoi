@@ -1,6 +1,0 @@
-[submodule "howdy"]
-	path = howdy
-	url = https://github.com/wmyfelix/howdy.git
-[submodule "ipwebcam-gst"]
-	path = ipwebcam-gst
-	url = https://github.com/wmyfelix/ipwebcam-gst
