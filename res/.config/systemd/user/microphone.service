@@ -1,0 +1,13 @@
+[Unit]
+Description=Microphone of ipcam
+After=pipewire-pulse.service
+
+[Service]
+Type=forking
+ExecStart=camera --use-wifi 192.168.1.150 -d /dev/video1 -a -C
+ExecStop=camera -d /dev/video1 -k
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
