@@ -1,0 +1,6 @@
+[submodule "res/usr/bin/ipwebcam-gst"]
+	path = res/usr/bin/ipwebcam-gst
+	url = https://github.com/wmyfelix/ipwebcam-gst
+[submodule "res/lib/security/howdy/howdy"]
+	path = res/lib/security/howdy/howdy
+	url = https://github.com/wmyfelix/howdy.git
