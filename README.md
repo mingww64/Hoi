@@ -1,5 +1,5 @@
 # Hoi
-A set of configurations for Howdy face unlock with ipwebcam.  
+A set of configurations for [Howdy](https://github.com/boltgolt/howdy) face unlock with [IP Webcam](https://market.android.com/details?id=com.pas.webcam).  
 
 Environment:
 
@@ -43,3 +43,7 @@ systemctl start camera
 
 **[1]** Always on and keep reconnecting when connection is dropped.  
 **[2]** High battery cosumption.  
+
+See also  
+
+- [Roadmap of Hoi](https://felicia.pages.dev/2022/07/24/howdy的安装经历/)  
