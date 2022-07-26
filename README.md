@@ -2,7 +2,9 @@
 
 A set of configurations for [Howdy](https://github.com/boltgolt/howdy) face unlock with [IP Webcam](https://market.android.com/details?id=com.pas.webcam).  
 
-Environment:
+![Howdy sudo](Howdy_sudo.webp)
+
+## Environment
 
 ```zsh
 ❯ neofetch
@@ -34,8 +36,8 @@ Environment:
 
 #### Howdy integration  
 
-Configure your `camera` options in files under res/ .
-Copy Configured files to its correspended directory.
+Configure your `camera` options in files under res/ .  
+Copy the configured files to its correspended directory.  
 Now howdy is integrated with IP Webcam.  
 
 #### Recording
@@ -55,6 +57,7 @@ To run camera permanently.
 `$ systemctl enable camera` *[1] [2] [3]*
 
 rather than that,  
+
 I suggest  
 `$ systemctl start camera`  
 do streaming stuff...  
