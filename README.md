@@ -45,7 +45,6 @@ Now howdy is integrated with IP Webcam.
 ```shell
 systemctl --user daemon-reload
 systemctl --user enable microphone # [1]
-systemctl daemon-reload
 ```
 
 Now the Microphone of IP Webcam will be sinked to PulseAudio once user login.
@@ -54,14 +53,14 @@ Now the Microphone of IP Webcam will be sinked to PulseAudio once user login.
 
 To run camera permanently.
 
-`$ systemctl enable camera` *[1] [2] [3]*
+`$ systemctl enable camera` [1] [2] [3]
 
 rather than that,  
 
 I suggest  
-`$ systemctl start camera`  
-do streaming stuff...  
-`$ systemctl stop camera`  
+`$ systemctl --user start videostream`  
+**do streaming stuff...**  
+`$ systemctl --user stop videostream`  
 
 ----
 

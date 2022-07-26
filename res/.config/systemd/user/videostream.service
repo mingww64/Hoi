@@ -1,0 +1,15 @@
+[Unit]
+Description=Video and Audio of ipcam
+After=pipewire-pulse.service
+
+[Service]
+Type=forking
+ExecStartPre=systemctl --user stop microphone
+ExecStart=camera --use-wifi 192.168.1.150 -d /dev/video1 -C
+ExecStop=camera -d /dev/video1 -k
+ExecStopPost=systemctl --user start microphone
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
